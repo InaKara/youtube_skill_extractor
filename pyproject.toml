@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "docling>=2.102.2",
+    "faster-whisper>=1.2.1",
     "ffmpeg>=1.4",
     "ffprobe>=0.5",
     "imageio-ffmpeg>=0.6.0",
@@ -13,6 +15,7 @@ dependencies = [
     "pytesseract>=0.3.13",
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
+    "scenedetect>=0.7",
     "youtube-transcript-api>=1.2.4",
-    "yt-dlp>=2026.3.17",
+    "yt-dlp[curl-cffi,default]>=2026.3.17",
 ]
